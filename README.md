@@ -1,4 +1,4 @@
 # Project1
  # Predictive Forecasting of Care Load & Placement Demand
- stremlit dashboard link 
+ streamlit dashboard link 
  http://localhost:8501/ 
