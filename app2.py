@@ -232,7 +232,7 @@ with tab1:
     fig2 = go.Figure()
     fig2.add_trace(go.Scatter(x=df["Date"], y=df["net_pressure"], name="Historical"))
     fig2.add_trace(go.Scatter(x=future_dates, y=net_pressure_forecast, name="Forecast"))
-
+    fig2.update_layout(title="Net Intake Pressure")
     st.plotly_chart(fig2, use_container_width=True)
 
     # TEST PREDICTIONS
